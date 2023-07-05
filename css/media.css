@@ -1,0 +1,52 @@
+/* mobile */
+@media(min-width:320px){
+	  .baner-colum1{
+	 width:100%;
+	 height:100%;
+	 border:1px solid black;
+	
+}    .banner-section{
+	
+	 background-position:center;
+	
+	 
+	 
+}
+	 
+}
+/* ipad */
+@media(min-width:660px){ 
+     
+	 .baner-colum1{
+	 width:100%;
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+	 flex-direction:column;
+	 
+	 border:1px solid black;
+	 
+}.banner-section{
+	 
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	
+}
+	 
+}
+	
+/* }laptop */
+@media(min-width:960px){
+	  .baner-colum1{
+	 width:40%;
+	 height:100%;
+	 border:1px solid black;
+	 background-color:#1B3045;
+}
+	 .banner-section{
+	 height:100vh;
+	 
+	
+}
+	
+}
